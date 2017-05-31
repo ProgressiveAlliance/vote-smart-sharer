@@ -1,0 +1,798 @@
+.navbar-inverse {
+  background: white;
+  border: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #00A08C;
+  font-size: 2rem;
+  margin-top: 0.8rem;
+  margin-left: 2rem;
+  border: none;
+  background-color: #fff !important;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #fff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ff3680;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #00A08C;
+    background-color: #fff;
+    border-bottom: 1px solid #00A08C;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #00A08C;
+    border: none;
+    background-color: #fff;
+    border-bottom: 1px solid #00A08C;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #55f0b8;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #00A08C;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus {
+  color: #ff3680;
+  background-color: #fff;
+  border-bottom: 1px solid #ff3680;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  color: #ff3680;
+  background-color: #fff;
+  border-bottom: 1px solid #ff3680;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #00A08C;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+.logo span, .navbar-inverse .navbar-brand .logo span {
+  font-family: 'FoundersBold';
+  color: #00A08C;
+  display: block;
+  padding: 0.55rem 1rem;
+  background: white;
+  position: relative;
+  z-index: 10;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.logo span {
+  display: inline-block;
+}
+
+.logo span.alliance, .navbar-inverse .navbar-brand .logo span.alliance {
+  font-family: 'FoundersBold';
+  color: #ff3680;
+  display: inline-block;
+  padding: 0.1rem 1rem 0.8rem;
+  position: relative;
+  top: -1px;
+  z-index: 11;
+  border-top: 0;
+}
+
+
+h2.changer  {
+  font-family: 'FoundersRegular';
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: right;
+    margin: 0;
+  }
+
+  h2.changer  {
+    font-size: 7vw;
+    line-height: 7vw;
+  }
+}
+.changer-holder {
+  padding-bottom: 9vw;
+}
+
+.changer span {
+  font-family: 'FoundersBold';
+  color: #00A08C;
+  display: none;
+  position: absolute;
+}
+
+.changer span.current {
+  display: block;
+}
+
+label[for=signup_activity_is_private] {
+  display: none;
+}
+
+.nationbuilder {
+  display: none;
+}
+
+.org {
+  margin-top: 5rem;
+}
+
+.org .logo-holder {
+  margin-bottom: 3rem;
+}
+
+footer p {
+  font-size: 1.9rem;
+}
+
+footer a {
+  color: #00A08C;
+  text-decoration: none;
+  margin-right: 3rem;
+}
+
+footer a:last-child {
+  margin-right: 0;
+}
+
+footer a:hover {
+  color: #ff3680;
+  text-decoration: none;
+}
+
+.homepage-signup-submit {
+
+}
+
+/*.page-pages-show-signup-wide .navbar {
+  display: none;
+}*/
+
+.page-pages-show-signup-wide .main-container {
+  margin-top: 3.5rem;
+}
+
+@media (min-width: 768px) {
+  .page-pages-show-signup-wide .main-container {
+    margin-top: 7rem;
+  }
+}
+
+.homepage-signup input,
+.tool-signup input {
+  float: left;
+  display: inline-block;
+  margin: 0;
+  width: 12vw;
+  border-radius: 0;
+}
+
+
+
+.homepage-signup #signup_email, .homepage-signup #signup_email:focus {
+  width: 200px;
+  font-size: 2rem;
+  height: 6rem;
+  padding: 2rem 1rem;
+  border: 1px solid #00A08C;
+  box-shadow: 0px;
+  outline: 0;
+}
+
+.homepage-signup .form-group input[type=text], .homepage-signup .form-group input[type=text]:focus,
+.tool-signup .form-group input[type=text], .tool-signup .form-group input[type=text]:focus,
+.tool-signup .form-group input[type=email], .tool-signup .form-group input[type=email]:focus,
+.tool-signup .form-group input#signup_phone_number, .tool-signup .form-group input#signup_phone_number:focus {
+  width: 100%;
+  font-size: 2rem;
+  height: 6rem;
+  /*padding: 2rem 1rem;*/
+  border: 1px solid #00A08C;
+  box-shadow: 0px;
+  outline: 0;
+}
+
+
+.homepage-signup #signup_email, .homepage-signup #signup_email:focus {
+  width: auto;
+}
+
+.btn.btn-primary {
+  width: auto;
+  font-size: 2rem;
+  background-color: #55f0b8;
+  border-color: white;
+  border: 0;
+  color: #333;
+  border-radius: 0;
+  font-family: 'FoundersBold';
+}
+
+
+
+
+
+.homepage-signup .submit-button, .tool-signup .submit-button {
+  width: auto;
+  font-size: 2rem;
+  background-color: #55f0b8;
+  border-color: white;
+  height: 6rem;
+  border: 0;
+  text-transform: uppercase;
+  font-family: 'FoundersBold';
+}
+
+.homepage-signup .submit-button:hover,
+.tool-signup .submit-button:hover,
+.btn.btn-primary:hover {
+  background-color: #ff3680;
+  color: #333;
+}
+
+.content-pages-show-signup-wide .form-wrap {
+  margin-bottom: 10rem;
+}
+
+.tool-signup label {
+
+}
+
+.tool-signup .form-group {
+  display: block;
+  margin-bottom: 1.5rem;
+  float: left;
+  width: 100%;
+}
+
+.tool-signup .form-group:last-child {
+  margin-top:0rem;
+}
+
+.homepage-signup, .tool-signup {
+  display: block;
+  margin-bottom: 1.5rem;
+  border: 0;
+}
+
+.tool-signup .form-group input {
+  width: 100%;
+}
+
+
+
+@media (min-width: 768px) {
+
+  .homepage-signup, .tool-signup {
+    float: left;
+    padding: 0;
+  }
+
+  .tool-signup .form-group {
+    display: inline;
+    margin-bottom: 0rem;
+    float: left;
+    width: auto;
+    margin-right: 1rem;
+  }
+
+  .tool-signup .form-group:last-child {
+    margin-top:3.3rem;
+  }
+
+  .homepage-signup #signup_email, .homepage-signup #signup_email:focus,
+  .tool-signup #signup_email, .tool-signup #signup_email:focus,
+  .tool-signup #signup_submitted_address, .tool-signup #signup_submitted_address:focus,
+  .tool-signup #signup_phone_number, .tool-signup #signup_phone_number:focus {
+    /*font-size: 3rem;*/
+    /*padding: 2.65rem 1vw;*/
+  }
+
+  .tool-signup #signup_email, .tool-signup #signup_email:focus,
+  .tool-signup #signup_phone_number, .tool-signup #signup_phone_number:focus
+  {
+    width: 20vw;
+  }
+
+  .tool-signup #signup_submitted_address, .tool-signup #signup_submitted_address:focus {
+    width: 20vw;
+  }
+
+  .homepage-signup .submit-button,
+  .tool-signup .submit-button {
+    width: auto;
+    font-size: 3rem;
+  }
+
+
+
+}
+
+
+.blurb p {
+  font-size: 1.9rem;
+}
+
+.blurb span {
+  font-family: "FoundersBold";
+  display: block;
+}
+
+.blurb .first {
+  color: #ff3680;
+}
+
+.blurb .second {
+  color: #00A08C;
+}
+
+
+img.powered-by {
+  width: 100px;
+}
+
+.page-pages-show-donation-wide .headline {
+  border-bottom: 1px solid #ff3680;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+
+.like-page {
+  margin-top: 0px !important;
+}
+
+.page-copy p:first-child {
+  font-family: "FoundersBold";
+  margin-top: 5rem;
+}
+
+.suggestion.page-copy p:first-child {
+  margin-top: 0;
+}
+
+.page-copy p, .intro p, .intro, .page-copy li, .intro li, .excerpt p, .excerpt li {
+    font-size: 1.9rem;
+    margin-bottom: 2.3rem;
+}
+
+@media (min-width: 768px) {
+  .page-copy p, .intro p, .intro, .blurb p, .page-copy li, .intro li, .excerpt p, .excerpt li {
+    font-size: 3rem;
+    margin-bottom: 2.8rem;
+  }
+}
+
+.headline {
+  font-family: "FoundersBold";
+}
+
+.overflow-container {
+  overflow-x: hidden;
+}
+
+a {
+  color: #00A08C;
+}
+
+.main p a {
+    text-decoration: underline;
+}
+
+a:hover, a:focus {
+  color: #ff3680;
+  text-decoration: underline;
+}
+
+.loading {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 10;
+}
+
+body p.loading-message {
+  text-align: center;
+  color: #ff3680;
+  font-family: "FoundersBold" !important;
+}
+
+.suggestion {
+  display: none;
+}
+
+.defend .defend,
+.attack .attack,
+.special .special,
+.not-special .not-special,
+.possible .possible,
+.prog-marginal .prog-marginal {
+  display: inline-block;
+}
+
+.defend, .attack, .special, .possible, .prog-marginal,
+.attack .defend, .defend .attack,
+.special.defend .attack, .special.attack .defend,
+.not-special .special, .special .not-special,
+.possible .attack.special, .possible .defend.special {
+  display: none;
+}
+
+.attack-not-special .attack-not-special,
+.defend-not-special .defend-not-special,
+.special .special,
+.attack-paw10 .attack-paw10,
+.attack-pamaj .attack-pamaj,
+.defend-special .defend-special,
+.defend-special .special,
+.attack-pamaj .special {
+  display: inline-block;
+}
+
+.attack-not-special, .defend-not-special, .attack-paw10, .attack-pamaj, .defend-special {
+  display: none;
+}
+
+.nearby-defend-not-special, .nearby-attack-not-special {
+  display: none;
+}
+
+.tctc-show {
+  display: none;
+}
+
+.tctc .tctc-show {
+  display: block;
+}
+
+.tctc .tctc-hide {
+  display: none;
+}
+
+/* CSS for progressive alliance key targets */
+
+.pa-target {
+  display: none !important;
+}
+
+/* when there's an id on the box */
+
+#pa-target .pa-target-hide {
+  display: none !important;
+}
+
+#pa-target .pa-target {
+  display: block !important;
+}
+
+#campaign-nearby-module,
+#local-group-module,
+.local-alliance {
+  display: none;
+}
+
+
+strong {
+  color: #ff3680;
+  font-family: "FoundersBold";
+}
+
+h1 .constituency-name {
+  font-family: "FoundersBold";
+}
+
+h1 .smaller-info {
+  font-size: 0.625em;
+}
+
+.page-copy h1 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  line-height: 5rem;
+  border-bottom: 1px solid #00A08C;
+}
+
+@media (min-width: 768px) {
+  .page-copy h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.constituency-chooser {
+  width: 100%;
+  font-size: 2rem;
+  margin-top:1rem;
+}
+
+a.about-this-recommendation {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+hr.red {
+  border-top: 1px solid #ff3680;
+}
+
+#pc-search {
+}
+
+#pc-value::placeholder {
+  text-transform: none;
+}
+
+#pc-value input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.donation-form {
+  overflow-x: hidden;
+}
+
+.page-pages-show-donation-wide .progress .progress-bar {
+  background-color: #3ed6aa;
+  line-height: 30px;
+  font-size: 4rem;
+  padding: 2.6rem;
+}
+
+.page-pages-show-donation-wide .progress {
+  height: auto;
+  margin-bottom: 5rem;
+}
+
+.bar-goal h4 {
+  margin-bottom: 5rem;
+}
+
+
+input::-moz-placeholder {
+  color: black;
+}
+
+.actions {
+  margin: 1rem 0 3rem 0;
+}
+
+.page-type-donation #flash_container {
+  display: none;
+}
+
+#flash_container .flash-share {
+    border-radius: 0;
+    border: 2px solid;
+}
+
+.page-pages-show-donation-wide #flash_container .panel-heading h3.headline {
+    color: white;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+input#face_tweet_content {
+    min-height: 90px;
+}
+
+h1, h2, h3 {
+  font-family: 'FoundersBold';
+}
+
+#intro {
+  margin-top: 5rem;
+}
+
+.page-donate hr {
+  display: none;
+}
+
+.sidebar {
+  display: none;
+}
+
+.event-detail {
+  background: #00A08C;
+  border: none;
+  color: white;
+  padding: 4rem;
+}
+
+.event-detail h6 {
+  font-family: "FoundersBold";
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.event-detail a {
+  color: white;
+  text-decoration: underline;
+}
+
+.progress {
+  height: 80px;
+}
+
+.bar.progress-bar {
+  background: #00A08C;
+  line-height: 1;
+  padding-top: 24px;
+  font-family: "FoundersBold";
+  font-size: 30px;
+}
+
+.panel-footer {
+  background: transparent;
+}
+
+.panel {
+  margin-bottom: 28px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.panel-footer {
+  padding: 3rem 0;
+  background-color: white;
+  border-top: none;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+li.activity.media {
+  margin-bottom: 5rem;
+  padding: 3rem 3rem;
+  border: 1px solid #3ed6aa;
+}
+
+.petition_signature_form h4 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "FoundersBold";
+}
+
+#page-tags {
+  display: none;
+}
+
+.petition_signature_form h4, .content-pages-show-volunteer-signup-wide h4 {
+  text-align: center;
+  font-size: 64px;
+  font-family: "FoundersBold";
+}
+
+h2.headline, h3.headline, h4.headline, h1.headline, #headline h2, .headline h2, .page-excerpt h3 {
+  font-size: 64px;
+  font-family: "FoundersBold";
+  border-bottom: 4px solid;
+  padding-bottom: 1rem;
+}
+
+
+a#splash-btn {
+  position: absolute;
+  top: 11rem;
+  z-index: 1008;
+  font-size: 1.6rem;
+  text-align: center;
+  background: white;
+  color: black;
+  border: 1px solid #00A08C;
+  font-family: "FoundersRegular";
+  width: 300px;
+  left: 50%;
+  right: inherit;
+  margin-left: -150px;
+}
+
+@media (min-width: 768px) {
+  a#splash-btn {
+    position: absolute;
+    top: 2.8rem;
+    right: 3rem;
+    z-index: 1008;
+    width: auto;
+    left: inherit;
+    border: none;
+    background: #00A08C;
+    color: white;
+    font-family: "FoundersBold";
+  }
+
+}
+
+.label-default {
+  background-color: #3ed6aa;
+}
+
+.byline {
+  color: #3ed6aa;
+}
+
+.event-info {
+  padding: 3rem;
+  border: 1px solid #00A08C;
+  margin-bottom: 5rem;
+}
+
+.ticket-box {
+  margin-bottom: 4rem;
+  border: 1px solid #ff3680;
+  padding: 3rem;
+}
+
+h4.will-come {
+    text-align: center;
+    font-family: "FoundersBold";
+    font-size: 64px;
+    margin-bottom: 5rem;
+}
+
+.campaign-nearby-blurb {
+  display: none;
+}
+
+.page-homepage .columns-1-flash {
+  display: none;
+}
+
+.page-homepage .start-form .columns-1-flash {
+  display: block;
+}
+
+li.nearby-attack-pamaj:after,
+li.nearby-defend-special:after {
+    content: "Urgent";
+    color: #ff3680;
+    font-size: 1em;
+    margin-left: 1rem;
+}
+
+#rsvp .padtop.padbottom {
+  padding: 3rem;
+  border: 1px solid #00A08C;
+}
+
+.results-opener .second-place:first-letter {
+  text-transform: uppercase;
+}
+
+span.second-place {
+  display: inline-block;
+}
+
+.content-pages-show-event .breadcrumb {
+  background: none;
+  text-align: center;
+}
